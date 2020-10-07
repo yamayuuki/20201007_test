@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body{
+  margin: 0;
+  color:#707070;
+  font-size: 15px;
+  font-family: 'Gill Sans', Times, Georgia, serif;
+  line-height: 2em;
+  letter-spacing: 0;
+  background-color: #FFF;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+.inner{
+  max-width: 80%;
+}
+/* header */
+
+.head{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+}
+/* main */
+
+.food{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category{
+    display: flex;
+}
+/* footer */
