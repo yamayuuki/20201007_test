@@ -17,25 +17,31 @@ img {
 
 
 .inner{
-  max-width: 80%;
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
 }
 /* header */
 
 .head{
     display: flex;
+    justify-content: space-between;
 }
 
 .menu{
     display: flex;
+    justify-content: space-between;
 }
 /* main */
 
 .food{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .category{
     display: flex;
+    justify-content: space-between;
 }
 /* footer */
