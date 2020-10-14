@@ -15,33 +15,69 @@ img {
     vertical-align: middle;
 }
 
+ul{
+    list-style: none;
+}
 
 .inner{
-  max-width: 1000px;
-  width: 80%;
+  max-width: 660px;
+  width: 90%;
   margin: 0 auto;
 }
+
 /* header */
 
 .head{
-    display: flex;
-    justify-content: space-between;
+    margin: 50px auto 80px;
+    text-align: center;
 }
 
 .menu{
+    margin: 20px 200px 0;
     display: flex;
-    justify-content: space-between;
 }
+
+.menu li{
+    margin: 0 20px;
+}
+
+.menu a{
+    color: #707070;
+    text-decoration: none;
+}
+
+.menu .current,
+.menu a:hover{
+    color: #FFBF9D;
+}
+
 /* main */
 
 .food{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .category{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.category img{
+    margin-right: 20px;
 }
 /* footer */
+
+
+
+@media(min-width:1000px){
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+}
